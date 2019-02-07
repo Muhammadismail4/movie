@@ -1,0 +1,45 @@
+.slider {
+    margin-bottom: 40px;
+  }
+  
+  .slider label {
+    color: rgb(179, 20, 20);
+    font-size: 1rem;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+  }
+  
+  .input-range__slider {
+    background: #5c16cc;
+    border: none;
+  }
+  
+  .input-range__track {
+    background: rgb(201, 212, 54);
+  }
+  
+  .input-range__track--active {
+    background: #5c16cc;
+  }
+  
+  .input-range__label--value .input-range__label-container {
+    background: #26c749;
+    color: rgb(255, 255, 255);
+    font-size: 0.65rem;
+    padding: 2px 5px;
+    border-radius: 2px;
+  }
+  
+  .input-range__label--min .input-range__label-container,
+  .input-range__label--max .input-range__label-container
+   {
+    font-size: 0.65rem;
+    color: #5c16cc;
+    left: 0;
+  }
+  
+  .input-range__label--max .input-range__label-container {
+    left: 25%;
+  }
+  
